@@ -6,3 +6,7 @@
 
 - remove `LICENSE.KEY` and regenerate from env in `ENTRYPOINT` docker script;
   update instructions to copy into `.env`
+
+## Ideas
+
+- [This repo](https://github.com/mondain/sandbox/tree/master/redsupport339) demonstrates switching between multiple streams. This could simplify playback / make it more consistent by not requiring clients to switch between e.g. the professor and a student giving a presentation / asking a question.
