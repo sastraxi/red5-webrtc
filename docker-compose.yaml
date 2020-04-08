@@ -1,0 +1,14 @@
+version: '3.6'
+services:
+  red5pro:
+    image: sastraxi/red5pro:6.2.0
+    ports:
+      - "843:843"
+      - "1935:1935"
+      - "5080:5080"
+      - "5443:5443"
+      - "8081:8081"
+      - "8443:8443"
+    restart: always
+    environment:
+      RED5PRO_SERVER_KEY: "${RED5PRO_SERVER_KEY}"
